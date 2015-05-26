@@ -18,7 +18,7 @@ var gulp         = require('gulp')
 
 gulp.task('style:modern', function() {
 
-    var file = 'styleguide';
+    var file = 'main';
 
     return gulp.src( config.style.src + file + '.scss' )
         .pipe(sourcemaps.init())
@@ -35,7 +35,7 @@ gulp.task('style:modern', function() {
 
 gulp.task('style:old', function() {
 
-    var file = 'styleguide';
+    var file = 'main';
 
     return gulp.src( config.style.src + file + '.scss' )
         .pipe(replace(/\$old\:\s*false;/g, function(str) {

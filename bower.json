@@ -30,6 +30,11 @@
   "overrides": {
     "modernizr": {
       "main": "modernizr.js"
+    },
+    "TimelineJS": {
+      "main": [
+        "build/**/.*"
+      ]
     }
   }
 }

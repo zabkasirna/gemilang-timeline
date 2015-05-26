@@ -41,14 +41,14 @@ var conf = {
         // bundle config in the list below
         bundleConfigs: [
             {
-                entries: src + '/script/rb-styleguide.js',
+                entries: src + '/script/main.js',
                 dest: dest + '/script',
-                outputName: 'rb-styleguide.js'
+                outputName: 'main.js'
             },
             {
-                entries: src + '/script/rb-proto.js',
+                entries: src + '/script/main.js',
                 dest: dest + '/script',
-                outputName: 'rb-proto.js'
+                outputName: 'main.js'
             }
         ]
     },
