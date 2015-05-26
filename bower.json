@@ -1,0 +1,35 @@
+{
+  "name": "gemilang-timeline",
+  "version": "0.0.0",
+  "authors": [
+    "sirna"
+  ],
+  "description": "gemilang timeline",
+  "main": "app/script/main.js",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "hidden"
+  ],
+  "license": "proprietary",
+  "homepage": "zabkasirna.github.io/gemilang-timeline",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "modernizr": "~2.8.3",
+    "TimelineJS": "~2.36.0"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    }
+  }
+}
